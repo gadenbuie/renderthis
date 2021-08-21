@@ -2,6 +2,7 @@
 
 export(build_all)
 export(build_gif)
+export(build_handout)
 export(build_html)
 export(build_mp4)
 export(build_pdf)
