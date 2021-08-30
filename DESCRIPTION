@@ -15,9 +15,9 @@ Authors@R:
       person(given = "Bryan",
              family = "Shalloway",
              role = "ctb"))
-Description: Functions for building 'xaringan' slides to different outputs,
-    html, pdf, png, gif, pptx, and mp4, as well as a 'social' output, a png of
-    the first slide re-sized for sharing on social media.
+Description: Functions for building 'xaringan' slides to different
+    outputs, html, pdf, png, gif, pptx, and mp4, as well as a 'social'
+    output, a png of the first slide re-sized for sharing on social media.
 License: MIT + file LICENSE
 Depends: 
     R (>= 3.4.0)
@@ -30,6 +30,7 @@ Imports:
     pagedown,
     progress,
     rmarkdown,
+    whisker,
     withr,
     xaringan,
     zip
