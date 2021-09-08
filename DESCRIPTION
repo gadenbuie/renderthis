@@ -25,6 +25,7 @@ Imports:
     cli,
     digest,
     fs,
+    htmltools,
     jsonlite,
     magick (>= 2.7.1),
     pagedown,
