@@ -18,31 +18,31 @@ build_pdf(
 input is a url to xaringan slides on a website, you must provide the full
 url ending in ".html".}
 
-\item{output_file}{The name of the output file. If `NULL` (the default) then
+\item{output_file}{The name of the output file. If \code{NULL} (the default) then
 the output filename will be based on filename for the input file. If a
 filename is provided, a path to the output file can also be provided.}
 
 \item{complex_slides}{For "complex" slides (e.g. slides with panelsets or
-other html widgets or advanced features), set `complex_slides = TRUE`.
-Defaults to `FALSE`. This will use the {chromote} package to iterate
-through the slides at a pace set by the `delay` argument. Requires a local
+other html widgets or advanced features), set \code{complex_slides = TRUE}.
+Defaults to \code{FALSE}. This will use the {chromote} package to iterate
+through the slides at a pace set by the \code{delay} argument. Requires a local
 installation of Chrome.}
 
 \item{partial_slides}{Should partial (continuation) slides be included in the
-output? If `FALSE`, the default, only the complete slide is included in the
+output? If \code{FALSE}, the default, only the complete slide is included in the
 PDF.}
 
 \item{delay}{Seconds of delay between advancing to and printing a new slide.
-Only used if `complex_slides = TRUE` or `partial_slides = TRUE`.}
+Only used if \code{complex_slides = TRUE} or \code{partial_slides = TRUE}.}
 
 \item{keep_intermediates}{Should we keep the intermediate HTML file? Only
-relevant if the `input` is an `.Rmd` file. Default is `TRUE` if the
-`output_file` is written into the same directory as the `input`, otherwise
+relevant if the \code{input} is an \code{.Rmd} file. Default is \code{TRUE} if the
+\code{output_file} is written into the same directory as the \code{input}, otherwise
 the intermediate file isn't kept.}
 }
 \description{
 Build xaringan slides as a pdf file. Requires a local installation of Chrome.
-If you set `complex_slides = TRUE` or `partial_slides = TRUE`, you will also
+If you set \code{complex_slides = TRUE} or \code{partial_slides = TRUE}, you will also
 need to install the {chromote} and {pdftools} packages.
 }
 \examples{

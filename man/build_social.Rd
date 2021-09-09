@@ -16,7 +16,7 @@ If a filename is provided, a path to the output file can also be provided.}
 \description{
 Build png image of first xaringan slide for sharing on social media.
 Requires a local installation of Chrome as well as the {webshot2} package:
-`remotes::install_github("rstudio/webshot2")`.
+\code{remotes::install_github("rstudio/webshot2")}.
 }
 \examples{
 \dontrun{
